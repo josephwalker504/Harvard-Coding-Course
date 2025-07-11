@@ -14,7 +14,7 @@
             </thead>
         </table>
 
-        <p>Welcome to the world of 3 Little Lemons!</p>
+        <h1>Welcome to the world of 3 Little Lemons!</h1>
         
         <ul>
             <li><a href="https://preppykitchen.com/lemon-merengue-tarts/">Lemon Tart</a></li>
@@ -23,6 +23,28 @@
         </ul>
 
         <p>Enjoy your culinary adventures with lemons!</p>
+
+        <form>
+            <div>
+                <input type="text" placeholder="Enter your Full Name" name="Full Name">
+                <input type="email" placeholder="Enter your email" name="email">
+                <input type="submit" value="Submit">
+            </div>
+            <div>
+                <input type="radio" name="lemonType" value="Lemon Tart"> Lemon Tart
+                <input type="radio" name="lemonType" value="Lemonade"> Lemonade
+                <input type="radio" name="lemonType" value="Lemon Drop Martini"> Lemon Drop Martini
+            </div>
+            <div>
+                <input name="drink size" list="drinkSizes" placeholder="Select a drink size">
+                <datalist id="drinkSizes">
+                    <option value="Small">
+                    <option value="Medium">
+                    <option value="Large">
+                </datalist>
+            </div>
+            
+        </form>
 
     </body>
 
