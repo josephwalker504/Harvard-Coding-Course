@@ -4,6 +4,18 @@ h1 {
     text-align: center;
     margin-top: 20px;
 }
+#meet3 {
+    font-size: 2em;
+    color: rgb(207, 25, 174);
+    text-align: center;
+    margin-top: 20px;
+}
+h2 {
+    font-size: 1.5em;
+    color:  skyblue;
+    text-align: center;
+    margin-top: 20px;
+}
 
 table {
     width: 100%;
@@ -30,9 +42,9 @@ li {
     margin: 10px 0;
 }
 img {
-    width: 100px;
-    height: auto;
-    display: block;
+    width: 300px;
+    height: 300px;
+    display:inline-flexbox;
     margin: 0 auto;
 }
 p {
